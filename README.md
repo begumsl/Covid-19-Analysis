@@ -68,24 +68,19 @@ How did cumulative COVID-19 deaths per million vary across groups of elderly pop
 12. Testing Intensity vs. Reported Cases  
 How did reported cases and positivity rates vary across countries grouped by testing intensity?
 
-## Key Findings :bulb:
-- The United States recorded the highest cumulative COVID-19 death count in the dataset, followed by Brazil, Mexico, India, and the United Kingdom.  
+**Key Findings 💡**
 
-- Europe recorded the highest cumulative COVID-19 deaths, with 1,016,750 deaths, while Oceania recorded the lowest, with 1,046 deaths.  
+* The United States recorded the highest cumulative COVID-19 death count in the dataset, followed by Brazil, Mexico, India, and the United Kingdom.
+* Europe recorded the highest cumulative COVID-19 deaths (1,016,750), while Oceania recorded the lowest (1,046).
+* Monthly COVID-19 deaths varied substantially across countries and over time; percentage changes were particularly large when the previous month's death count was low, reflecting sensitivity to small baseline values.
+* Countries with a higher elderly population share generally showed higher average COVID-19 deaths per million, with mortality levels also varying across HDI groups.
+* Higher testing intensity was associated with higher reported cases per million and lower average positivity rates.
 
-- Monthly COVID-19 deaths varied substantially across countries and over time. Percentage changes could be particularly large when the previous month's death count was low, making percentage changes sensitive to small baseline values.  
+**Limitations ⚠️**
 
-- Average recorded COVID-19 deaths per million varied across elderly population and HDI groups, with higher elderly population shares generally associated with higher mortality levels. However, this finding should not be interpreted as a causal relationship.  
- 
-- Higher testing intensity was associated with higher reported cases per million and lower average positivity rates. This pattern may reflect greater case detection in countries with more extensive testing and should not be interpreted as a causal relationship.  
-
-
-## Limitations :warning:
-- Reported COVID-19 cases and deaths may differ from actual infections and deaths due to differences in testing, reporting practices and data availability.
-- Missing values and differences in data coverage may affect cross-country comparisons.
-- Testing intensity and reported case counts should not be interpreted as a direct measure of actual infection prevalence.
-- Observational relationships identified in the analysis do not imply causation.
-
+* Reported cases and deaths may differ from actual infection and mortality levels due to differences in testing capacity, reporting practices, and data availability across countries. Testing intensity and case counts should therefore not be interpreted as direct measures of true infection prevalence.
+* Missing values and inconsistent data coverage may affect cross-country comparisons.
+* All observational relationships identified in this analysis (elderly population/HDI vs. mortality, testing intensity vs. case detection) are associational, not causal.
 
 
 
