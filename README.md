@@ -1,5 +1,5 @@
-# Covid-19-Analysis :earth_americas:
-This project explores global COVID-19 trends using SQL Server and the Our World in Data dataset. The analysis examines reported cases, deaths, vaccinations, and testing metrics across countries and over time. Advanced SQL techniques such as CTEs, window functions, joins, and aggregate analysis were used to uncover trends and relationships in the data.
+# COVID 19 ANALYSIS WITH SQL SERVER & POWER BI :earth_americas:
+This portfolio project analyzes global COVID-19 trends using the Our World in Data (OWID) dataset, SQL Server, and Power BI. The SQL analysis examines reported cases, deaths, vaccinations, and testing metrics across countries and over time. An interactive Power BI dashboard presents selected findings through KPI cards, filters, geographic visualizations, country rankings, and time-series analysis.
 
 ## Objective :test_tube:
 Explore the Our World in Data COVID-19 dataset with T-SQL to compare how reported cases, deaths, vaccinations and testing varied across countries and over time, and to examine how factors such as elderly population share, HDI and testing intensity relate to these outcomes.
@@ -10,12 +10,30 @@ This project is based on Alex The Analyst's [COVID-19 Data Exploration](https://
 - Q1–Q8:  Original questions and queries from Alex The Analyst's project.
 - Q9–Q12: Additional questions and queries I developed independently to extend the analysis.
 
+## Power BI Dashboard :bar_chart:
+The interactive Power BI dashboard provides an overview of selected global COVID-19 indicators from 1 January 2020 to 30 April 2021. It supports analysis across time periods, continents, and countries.
+
+<img width="1530" height="862" alt="COVID-19 Power BI Dashboard" src="https://github.com/user-attachments/assets/991ab60f-7284-4c54-a8de-f8687b3be634" />
+
+
+### The dashboard includes:
+
+- KPI cards for confirmed cases, deaths and fully vaccinated population
+- Interactive date range filtering
+- Continent-based filtering
+- Dynamic metric selection (Cases Rate / Deaths Rate)
+- Top 5 country ranking by selected metric
+- Geographic analysis using world map visualization
+- Time-series trend analysis of COVID-19 deaths
+- Cross-filtering between dashboard visuals
+
 ## Dataset
  Source: [Our World in Data — COVID-19 Deaths](https://ourworldindata.org/covid-deaths)  
  Coverage: 01-01-2020 to 30-04-2021
 
 ## Tools 
- Microsoft SQL Server (T-SQL)
+- Microsoft SQL Server (T-SQL)  
+- Microsoft Power BI 
  
  ## SQL Concepts Demonstrated :brain:
 - SELECT, WHERE, GROUP BY and ORDER BY
@@ -30,6 +48,8 @@ This project is based on Alex The Analyst's [COVID-19 Data Exploration](https://
 - Conditional calculations and percentage analysis
 - Monthly aggregation and time-series analysis
 - Data grouping and classification
+
+
 
 ## Questions :question:
 1. Case Fatality Rate Over Time (Turkey)  
